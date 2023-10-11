@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.container {
+    /*width: 90%;*/
+    margin: 0% 2% 0% 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBar {
+    width: 100%;
+    margin: 0px auto;
+    padding: 3px;
+    background-color: #CCCCCC;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login {
+    width: 75px;
+    height: 30px;
+    background-color: #2b78e4;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 2px 3px black;
+    margin: 10px 0px;
+}
+
+.con-1 {
+    margin: 0% 2% 0% 2%;
+    display: flex;
+}
+
+.col-1 {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.japanDef {
+    width: 350px;
+    height: 170px;
+    padding-right: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dojoDef {
+    width: 350px;
+    height: 170px;
+    padding-right: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 25px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.definition {
+    text-align: right;
+    text-wrap: wrap;
+}
+
+a {
+    color: blue;
+}
+
+button {
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #FFD966;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+}
+
+/* .con-2 {
+    width: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: start;
+    
+} */
+
+.col-2 {
+    width: 50%;
+    margin-top: 50px;
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+    justify-content: right;
+}
+
+.addDef {
+    width: 175px;
+    height: 105px;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.define {
+    width: 140px;
+    margin: 15px 5px 5px 5px;
+    background-color: #93C47D;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+}

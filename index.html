@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search" class="searchbar">
+            <button class="login" onclick="changeText(this)">Login</button>
+        </div>
+    </div>
+    <div class="con-1">
+        <div class="col-1">
+            <div class="japanDef">
+                <h2>ninja</h2>
+                <p>noun</p>
+                <p>Plural: ninjas</p>
+                <p class="definition">A practitioner skiled in the <a href="#">Japanese</a> art of <a href="#">ninjitsu</a></p>
+                <button onclick="popUp(this)">13 Likes</button>
+            </div>
+            <div class="dojoDef">
+                <h2>ninja</h2>
+                <p>noun</p>
+                <p>Plural: ninjas</p>
+                <p class="definition">A programmer who breaks down problems with <a href="#">zen</a>-like focus.</p>
+                <button onclick="popUp(this)">37 Likes</button>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="addDef">
+                <h3>Dojonary is defined by YOU</h3>
+                <button class="define" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
